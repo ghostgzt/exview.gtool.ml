@@ -1,0 +1,38 @@
+<body style="margin:0;padding:0;border: 0;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+<script>
+var jdtj=[];
+var tbk=[];
+</script>
+<!-- <script src="jdtj.js"></script> -->
+<!-- <script src="tbk.js"></script> -->
+<script>
+var adarrs=[
+	//"<scr"+"ipt src='http://veim.lrswl.com/s.php?id=8780'></scr"+"ipt>",
+	//"<scr"+"ipt src='http://veim.lrswl.com/s.php?id=9181'></scr"+"ipt>",
+	//"<scr"+"ipt src='http://veim.lrswl.com/s.php?id=9178'></scr"+"ipt>",
+	//"jdtj",
+	"tbk_cosplay",
+	"tbk_erciyuan",
+	"tbk_qingqu",
+	"tbk_sizhai",
+    ];
+var index=parseInt(Math.random()*(adarrs.length));
+var output=adarrs[index]||'';
+if(output.split('_')[0]=='jdtj'||output.split('_')[0]=='tbk'){
+var params=output.split('_');
+var type=params.shift();
+var tag=params.join('_');
+output='<scr'+'ipt src="'+type+'/'+tag+'.js"></scr'+'ipt>';
+if(type=='jdtj'){
+output+='<scr'+'ipt>var json=jdtj[parseInt(Math.random()*(jdtj.length))];</scr'+'ipt>';
+}
+if(type=='tbk'){
+output+='<scr'+'ipt>var json=tbk[parseInt(Math.random()*(tbk.length))];</scr'+'ipt>';
+}
+output+='<scr'+'ipt>var output=\'<a href="\'+json.link+\'" target="_blank" style="text-decoration:none"><div style="height:250px;width:300px;background-image:url(\'+json.cover+\');background-color:rgba(0,0,0,.59);background-size:contain;background-position:center;background-blend-mode:color"><div style="display:flex;height:100%"><div style="display:flex;flex-direction:column;justify-content:center"><p style="text-align:center;color:#fff;font-size:16px;font-weight:bolder">点击看看^_^</p><p style="color:#fff;font-size:14px;font-weight:700;padding:0 16px">[ExView推荐]\'+json.name+\'</p><p style="color:red;font-weight:700;padding-right:8px;text-align:right">价格: \'+json.price+\'</p></div></div></div></a>\';document.writeln(output);</scr'+'ipt>';
+}
+document.writeln(output);
+</script>
+</body>
