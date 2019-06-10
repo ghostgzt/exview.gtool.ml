@@ -34,7 +34,7 @@ output+='<scr'+'ipt>var json=tbk[parseInt(Math.random()*(tbk.length))];</scr'+'i
 }
 output+='<scr'+'ipt>var output=\'<a href="\'+json.link+\'" target="_blank" style="text-decoration:none"><div style="height:250px;width:300px;background-image:url(\'+json.cover+\');background-color:rgba(0,0,0,.59);background-size:contain;background-position:center;background-blend-mode:color"><div style="display:flex;height:100%"><div style="display:flex;flex-direction:column;justify-content:center"><p style="text-align:center;color:#fff;font-size:16px;font-weight:bolder">点击看看^_^</p><p style="color:#fff;font-size:14px;font-weight:700;padding:0 16px">[ExView推荐]\'+json.name+\'</p><p style="color:red;font-weight:700;padding-right:8px;text-align:right">价格: \'+json.price+\'</p></div></div></div></a>\';document.writeln(output);</scr'+'ipt>';
 }
-if((navigator.language||"").indexOf("zh")!=0) output='';
+//if((navigator.language||"").indexOf("zh")!=0) output='';
 output+='<!-- JuicyAds v3.0 --><scr'+'ipt type="text/javascript" data-cfasync="false" async src="https://adserver.juicyads.com/js/jads.js"></scr'+'ipt><ins id="748032" data-width="300" data-height="262"></ins><scr'+'ipt type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({\'adzone\':748032});</scr'+'ipt><!--JuicyAds END-->';
 document.writeln(output);
 </script>
