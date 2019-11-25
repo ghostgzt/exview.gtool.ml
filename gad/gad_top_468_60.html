@@ -38,8 +38,10 @@ output+='<scr'+'ipt>var output=\'<a href="\'+json.link+\'" target="_blank" style
 // var output='<scr'+'ipt>var output=\'<a href="https://ksnanjing.kuaishouapp.com/ug/nebula-task/invitation?code=2kv46sw&platform=copylink&fid=1463376924" target="_blank" style="text-decoration:none"><div style="height:60px;width:468px;width:calc(100vw -  32px);background-color:rgba(0,0,0,.42);background-size:cover;background-position:center;background-blend-mode:color"><div style="height:100%;line-height: 60px;background: url(https://static.yximgs.com/udata/pkg/userGrowth-FE-Mobile/nebula-task-external-bg.png),red;background-blend-mode: color;background-size: cover;color: white;font-size: 14px;">快手极速版填邀请码2kv46sw，刷视频送36块</div></div></a>\';document.writeln(output);</scr'+'ipt>';
 
 
-if(navigator.language&&(navigator.language||"").indexOf("zh")!=0&&navigator.userAgent.toLowerCase().indexOf("android") == -1) output=''/* '<div style="height:60px"></div>' */;
-if(top.location.host=='exview.gtool.ml') output='';
+if(navigator.userAgent.toLowerCase().indexOf("android") == -1){
+	if(navigator.language&&(navigator.language||"").indexOf("zh")!=0) output=''/* '<div style="height:60px"></div>' */;
+	if(top.location.host=='exview.gtool.ml') output='';	
+}
 output+='<!-- JuicyAds v3.0 --><scr'+'ipt type="text/javascript" data-cfasync="false" async src="https://adserver.juicyads.com/js/jads.js"></scr'+'ipt><ins id="748036" data-width="468" data-height="72"></ins><scr'+'ipt type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({\'adzone\':748036});</scr'+'ipt><!--JuicyAds END-->';
 document.writeln(output);
 </script>
