@@ -20,7 +20,7 @@ var tbk = [
     { "name": "全职高手盗墓笔记银魂夏目友人帐二次元动漫周边台灯创意生日礼物", "cover": "https://img.alicdn.com/i3/33690615/O1CN012kagr91GPi5SVoBNX_!!0-item_pic.jpg", "price": "48.00", "link": "https://s.click.taobao.com/0vbi5uv" },
     { "name": "二次元动漫卡通海报墙纸卡贴宿舍动漫墙纸黑岩狂三总悟金木妍海报", "cover": "https://img.alicdn.com/i4/3197769620/O1CN012Kw0co5zhaMtJ1P_!!3197769620.jpg", "price": "7.88", "link": "https://s.click.taobao.com/Gphe5uv" },
     { "name": "崩坏3三学园2八重樱琪亚娜周边动漫画集海报明信片卡贴钥匙扣挂件", "cover": "https://img.alicdn.com/i4/717345558/O1CN01FeVk2C1qvbr5fcW6D_!!717345558.jpg", "price": "12.80", "link": "https://s.click.taobao.com/WLUd5uv" },
-    { "name": "照片定制diy来图定做人形长等身抱枕芯套动漫全身二次元周边礼物", "cover": "https://img.alicdn.com/i2/2662460315/O1CN01zZXGkC1ECJKL0WXek_!!2662460315.jpg", "price": "28.80", "link": "https://s.click.taobao.com/ELlc5uv" },
+    
     { "name": "二次元周边动漫枕头靠垫抱枕等身长枕DIY来图定制抱枕 初音未来", "cover": "https://img.alicdn.com/i1/2528370593/O1CN01guXNfJ1GFdRASQlGg_!!2528370593.jpg", "price": "21.00", "link": "https://s.click.taobao.com/ZRWc5uv" },
     
     
